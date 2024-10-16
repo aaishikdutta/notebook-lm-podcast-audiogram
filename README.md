@@ -38,9 +38,9 @@ Once you've generated audio using notebook LM audio overview, download and add i
 ```bash
 pip install git+https://github.com/openai/whisper.git 
 ```
-for more information follow the steps in the (official repo)[https://github.com/openai/whisper].
+for more information follow the steps in the [official repo](https://github.com/openai/whisper).
 
-2. Then install (ffmpeg)[https://ffmpeg.org/] on your system. 
+2. Then install [ffmpeg](https://ffmpeg.org/) on your system. 
 
 3. Modify the audio file name in the script (ideally the audio file should be inside public folder) and run:
 
@@ -52,4 +52,4 @@ this will create an srt file of the same name as the audio file in the public fo
 ### 6. Rendering the video
 
 Once you have both the audio and the srt file, render using the remotion studio or remotion cli.
-For more help to use the cli, follow the official (remotion docs)[https://www.remotion.dev/docs/renderer].
+For more help to use the cli, follow the official [remotion docs](https://www.remotion.dev/docs/renderer).
