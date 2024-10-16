@@ -1,0 +1,61 @@
+:root {
+  --remotion-font: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  --base-size: 48px;
+}
+
+.wrapper {
+    font-family: "IBM Plex Sans";
+    background: #2a5148;
+    width: 1080px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* audio vizualization styles */
+
+.audio-viz {
+  display: flex;
+  flex-direction: row;
+  height: calc(var(--base-size) * 4);
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--base-size) * 0.25);
+  margin-top: var(--base-size);
+}
+
+.bar {
+  border-radius: calc(var(--base-size) * 0.25);
+  width: calc(var(--base-size) * 0.25);
+}
+
+/* title and image */
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cover {
+  border-radius: 6px;
+  height: 400px;
+}
+
+.title {
+  margin-left: var(--base-size);
+  line-height: 1.25;
+  font-weight: 800;
+  font-size: 56px;
+}
+
+/* subtitles */
+
+.captions {
+  margin-top: calc(var(--base-size) * 0.5);
+  font-size: calc(var(--base-size) * 1.5);
+  font-weight: 600;
+  font-size: 32px;
+}

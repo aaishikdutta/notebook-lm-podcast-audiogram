@@ -1,0 +1,36 @@
+{
+  "name": "notebook-lm-podcast",
+  "version": "1.0.0",
+  "description": "Audiogram using remotion and openai whisper",
+  "repository": {},
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.221",
+    "@remotion/media-utils": "4.0.221",
+    "@remotion/zod-types": "4.0.221",
+    "parse-srt": "1.0.0-alpha",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.221",
+    "zod": "3.22.3",
+    "@remotion/tailwind": "4.0.221"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "4.0.221",
+    "@types/react": "18.3.1",
+    "@types/web": "0.0.166",
+    "eslint": "8.56.0",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4"
+  },
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render Audiogram out/video.mp4",
+    "upgrade": "remotion upgrade",
+    "test": "eslint src --ext ts,tsx,js,jsx && tsc"
+  },
+  "sideEffects": [
+    "*.css"
+  ]
+}

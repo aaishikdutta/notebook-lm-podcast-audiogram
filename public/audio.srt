@@ -1,0 +1,2128 @@
+1
+00:00:00,000 --> 00:00:00,920
+Ever wished you could have
+
+2
+00:00:00,920 --> 00:00:01,880
+like a website or an
+
+3
+00:00:01,880 --> 00:00:03,420
+app designed, you know, like
+
+4
+00:00:03,420 --> 00:00:04,160
+in the blink of an
+
+5
+00:00:04,160 --> 00:00:05,900
+eye, perfectly tailored to your
+
+6
+00:00:05,900 --> 00:00:06,700
+exact needs?
+
+7
+00:00:07,400 --> 00:00:08,760
+Well, that's exactly what we're
+
+8
+00:00:08,760 --> 00:00:10,460
+diving into today, generative UI.
+
+9
+00:00:10,700 --> 00:00:11,580
+Yeah, it's not just about
+
+10
+00:00:11,580 --> 00:00:12,920
+making things look pretty, though
+
+11
+00:00:12,920 --> 00:00:14,080
+it can certainly do that.
+
+12
+00:00:14,200 --> 00:00:15,780
+It's about having, you know,
+
+13
+00:00:15,840 --> 00:00:17,380
+like an AI craft digital
+
+14
+00:00:17,380 --> 00:00:18,920
+interfaces that adapt to you,
+
+15
+00:00:18,980 --> 00:00:20,280
+you know, in real time.
+
+16
+00:00:20,320 --> 00:00:21,820
+No more wrestling with clunky
+
+17
+00:00:21,820 --> 00:00:24,480
+menus or trying to find
+
+18
+00:00:24,480 --> 00:00:25,760
+that one button hidden in
+
+19
+00:00:25,760 --> 00:00:26,540
+a sea of options.
+
+20
+00:00:26,540 --> 00:00:28,800
+This is about interfaces that
+
+21
+00:00:28,800 --> 00:00:30,940
+almost understand what you want
+
+22
+00:00:30,940 --> 00:00:32,920
+to achieve and they morph
+
+23
+00:00:32,920 --> 00:00:34,140
+to help you get there.
+
+24
+00:00:34,280 --> 00:00:35,300
+It's fascinating. You know, Harrison
+
+25
+00:00:35,300 --> 00:00:36,620
+Chase, the founder of LangChain,
+
+26
+00:00:36,740 --> 00:00:37,600
+he's been talking about how
+
+27
+00:00:37,600 --> 00:00:40,140
+user experience is this major
+
+28
+00:00:40,140 --> 00:00:42,220
+bottleneck in AI development.
+
+29
+00:00:42,320 --> 00:00:43,400
+He argues that if we
+
+30
+00:00:43,400 --> 00:00:44,900
+want AI to truly be
+
+31
+00:00:44,900 --> 00:00:46,880
+helpful, it needs to interact
+
+32
+00:00:46,880 --> 00:00:47,560
+with us in a way
+
+33
+00:00:47,560 --> 00:00:49,020
+that feels natural.
+
+34
+00:00:49,540 --> 00:00:50,060
+Intuitive.
+
+35
+00:00:50,220 --> 00:00:51,480
+Generative UI might just be
+
+36
+00:00:51,480 --> 00:00:52,000
+the key.
+
+37
+00:00:52,000 --> 00:00:53,260
+That makes total sense. It's
+
+38
+00:00:53,260 --> 00:00:54,620
+like we've been so focused
+
+39
+00:00:54,620 --> 00:00:56,680
+on on building the brains
+
+40
+00:00:56,680 --> 00:00:58,000
+of these AI systems that
+
+41
+00:00:58,000 --> 00:00:59,300
+we forgot about the face
+
+42
+00:00:59,300 --> 00:01:00,060
+they show to the world.
+
+43
+00:01:00,240 --> 00:01:01,520
+Exactly. And that's where generative
+
+44
+00:01:01,520 --> 00:01:02,500
+UI gets really interesting.
+
+45
+00:01:02,700 --> 00:01:04,240
+It's like having an AI
+
+46
+00:01:04,240 --> 00:01:05,500
+design assistant that can just
+
+47
+00:01:05,500 --> 00:01:06,660
+whip up a custom made
+
+48
+00:01:06,660 --> 00:01:09,440
+interface for any task on
+
+49
+00:01:09,440 --> 00:01:09,880
+the fly.
+
+50
+00:01:09,880 --> 00:01:11,540
+Like imagine telling your AI,
+
+51
+00:01:11,780 --> 00:01:13,200
+I need to book a
+
+52
+00:01:13,200 --> 00:01:13,940
+flight to Paris.
+
+53
+00:01:14,960 --> 00:01:16,320
+And instead of being, you
+
+54
+00:01:16,320 --> 00:01:17,860
+know, redirected to some generic
+
+55
+00:01:17,860 --> 00:01:20,000
+booking site, it creates a
+
+56
+00:01:20,000 --> 00:01:21,980
+streamlined interface right there in
+
+57
+00:01:21,980 --> 00:01:23,260
+front of you with only
+
+58
+00:01:23,260 --> 00:01:24,420
+the options relevant to your
+
+59
+00:01:24,420 --> 00:01:24,760
+request.
+
+60
+00:01:24,920 --> 00:01:25,600
+Now, that's what I'm talking
+
+61
+00:01:25,600 --> 00:01:27,260
+about. It sounds almost magical.
+
+62
+00:01:27,480 --> 00:01:28,620
+But how does it how
+
+63
+00:01:28,620 --> 00:01:29,320
+does it actually work?
+
+64
+00:01:29,440 --> 00:01:31,080
+Are we talking about AI
+
+65
+00:01:31,080 --> 00:01:32,480
+writing lines of code from
+
+66
+00:01:32,480 --> 00:01:32,880
+scratch?
+
+67
+00:01:32,880 --> 00:01:34,700
+In a way, yes. There
+
+68
+00:01:34,700 --> 00:01:36,360
+are different approaches to generative
+
+69
+00:01:36,360 --> 00:01:37,660
+UI. And one way to
+
+70
+00:01:37,660 --> 00:01:39,120
+think about it is is
+
+71
+00:01:39,120 --> 00:01:40,160
+on a spectrum of control.
+
+72
+00:01:40,340 --> 00:01:41,220
+On one end, you have
+
+73
+00:01:41,220 --> 00:01:42,600
+what we call true generative
+
+74
+00:01:42,600 --> 00:01:44,580
+UI, where the AI has,
+
+75
+00:01:44,660 --> 00:01:45,880
+you know, free reign to
+
+76
+00:01:45,880 --> 00:01:47,780
+generate the raw HTML, CSS
+
+77
+00:01:47,780 --> 00:01:49,620
+and JavaScript that that make
+
+78
+00:01:49,620 --> 00:01:51,040
+up a website or app.
+
+79
+00:01:51,040 --> 00:01:52,180
+So it's like it's like
+
+80
+00:01:52,180 --> 00:01:54,260
+unleashing an AI artist with
+
+81
+00:01:54,260 --> 00:01:56,200
+a license to design, you
+
+82
+00:01:56,200 --> 00:01:57,560
+know, however it pleases.
+
+83
+00:01:57,580 --> 00:01:59,860
+That sounds both exciting and
+
+84
+00:01:59,860 --> 00:02:00,880
+potentially terrifying.
+
+85
+00:02:01,240 --> 00:02:01,960
+Yeah. You hit the nail
+
+86
+00:02:01,960 --> 00:02:03,320
+on the head. While the
+
+87
+00:02:03,320 --> 00:02:05,360
+the potential for innovation is
+
+88
+00:02:05,360 --> 00:02:05,820
+huge.
+
+89
+00:02:05,960 --> 00:02:07,120
+You know, giving an AI
+
+90
+00:02:07,120 --> 00:02:08,640
+that much freedom can can
+
+91
+00:02:08,640 --> 00:02:10,300
+lead to unpredictable results.
+
+92
+00:02:10,740 --> 00:02:13,060
+Think flashing buttons, misaligned text,
+
+93
+00:02:13,120 --> 00:02:14,140
+the whole nine yards, at
+
+94
+00:02:14,140 --> 00:02:15,840
+least with the current limitations
+
+95
+00:02:15,840 --> 00:02:16,400
+of AI.
+
+96
+00:02:16,400 --> 00:02:17,580
+Right. It's like it's like
+
+97
+00:02:17,580 --> 00:02:19,080
+those AI image generators. You
+
+98
+00:02:19,080 --> 00:02:20,320
+might get a masterpiece or
+
+99
+00:02:20,320 --> 00:02:21,080
+you might get something that
+
+100
+00:02:21,080 --> 00:02:22,220
+looks like it belongs in
+
+101
+00:02:22,220 --> 00:02:23,300
+a modern art museum.
+
+102
+00:02:23,560 --> 00:02:25,180
+Yeah. Yeah. Intriguing, but not
+
+103
+00:02:25,180 --> 00:02:25,960
+always functional.
+
+104
+00:02:26,260 --> 00:02:27,260
+So what about the other
+
+105
+00:02:27,260 --> 00:02:28,140
+end of the spectrum? What
+
+106
+00:02:28,140 --> 00:02:28,980
+if what if you want
+
+107
+00:02:28,980 --> 00:02:30,020
+a bit more control over
+
+108
+00:02:30,020 --> 00:02:31,680
+the AI's creative output?
+
+109
+00:02:31,920 --> 00:02:33,660
+That's where guarded generative UI
+
+110
+00:02:33,660 --> 00:02:34,440
+comes into play.
+
+111
+00:02:34,880 --> 00:02:36,080
+Instead of giving the AI
+
+112
+00:02:36,080 --> 00:02:38,620
+complete freedom, we set some
+
+113
+00:02:38,620 --> 00:02:40,500
+boundaries, some design guardrails within
+
+114
+00:02:40,500 --> 00:02:41,380
+which it can operate.
+
+115
+00:02:41,380 --> 00:02:43,480
+Think of it like providing
+
+116
+00:02:43,480 --> 00:02:45,100
+the AI with with a
+
+117
+00:02:45,100 --> 00:02:46,660
+set of templates, style guides,
+
+118
+00:02:46,880 --> 00:02:47,740
+free approved components.
+
+119
+00:02:48,020 --> 00:02:49,240
+So it's still generating the
+
+120
+00:02:49,240 --> 00:02:51,520
+interface dynamically, but it's it's
+
+121
+00:02:51,520 --> 00:02:53,460
+playing within a defined sandbox,
+
+122
+00:02:53,800 --> 00:02:55,240
+ensuring a more a more
+
+123
+00:02:55,240 --> 00:02:56,880
+consistent and polished look and
+
+124
+00:02:56,880 --> 00:02:57,200
+feel.
+
+125
+00:02:57,420 --> 00:02:59,100
+Precisely. It may not have
+
+126
+00:02:59,100 --> 00:03:00,480
+the same element of surprise
+
+127
+00:03:00,480 --> 00:03:01,940
+as true generative UI.
+
+128
+00:03:01,980 --> 00:03:02,160
+OK.
+
+129
+00:03:02,460 --> 00:03:03,780
+But it offers a greater
+
+130
+00:03:03,780 --> 00:03:05,720
+degree of predictability and control,
+
+131
+00:03:06,000 --> 00:03:08,080
+which is essential for, you
+
+132
+00:03:08,080 --> 00:03:09,380
+know, many real world applications.
+
+133
+00:03:09,380 --> 00:03:10,240
+Right. It's a it's a
+
+134
+00:03:10,240 --> 00:03:11,860
+classic tradeoff freedom versus finesse.
+
+135
+00:03:11,980 --> 00:03:13,080
+But enough theory.
+
+136
+00:03:13,300 --> 00:03:14,400
+I'm itching to see how
+
+137
+00:03:14,400 --> 00:03:15,820
+this how this generative UI
+
+138
+00:03:15,820 --> 00:03:16,900
+magic plays out in the
+
+139
+00:03:16,900 --> 00:03:17,360
+real world.
+
+140
+00:03:17,540 --> 00:03:18,440
+What are some of the
+
+141
+00:03:18,440 --> 00:03:20,040
+tools and projects that are
+
+142
+00:03:20,040 --> 00:03:21,420
+that are pushing the boundaries
+
+143
+00:03:21,420 --> 00:03:22,280
+of what's possible?
+
+144
+00:03:22,520 --> 00:03:23,840
+One cool example is this,
+
+145
+00:03:23,940 --> 00:03:26,220
+this combination of React, a
+
+146
+00:03:26,220 --> 00:03:28,420
+popular JavaScript library for for
+
+147
+00:03:28,420 --> 00:03:30,660
+building user interfaces with open
+
+148
+00:03:30,660 --> 00:03:31,620
+AIs language model.
+
+149
+00:03:31,620 --> 00:03:33,700
+OK. Open AI, the the
+
+150
+00:03:33,700 --> 00:03:35,800
+folks behind ChatGPT. So we're
+
+151
+00:03:35,800 --> 00:03:37,500
+we're talking about combining the
+
+152
+00:03:37,500 --> 00:03:39,500
+power of AIs language processing
+
+153
+00:03:39,500 --> 00:03:41,840
+with the the flexibility of
+
+154
+00:03:41,840 --> 00:03:42,980
+a web development framework.
+
+155
+00:03:43,160 --> 00:03:44,880
+Exactly. Picture this. You're a
+
+156
+00:03:44,880 --> 00:03:46,200
+developer and you need to
+
+157
+00:03:46,200 --> 00:03:47,540
+create a simple contact form.
+
+158
+00:03:47,740 --> 00:03:48,520
+Instead of writing all the
+
+159
+00:03:48,520 --> 00:03:50,380
+code by hand, you just
+
+160
+00:03:50,380 --> 00:03:52,140
+type a prompt into your
+
+161
+00:03:52,140 --> 00:03:53,660
+code editor, like create a
+
+162
+00:03:53,660 --> 00:03:54,860
+form with fields for name,
+
+163
+00:03:54,980 --> 00:03:56,000
+email and a submit button.
+
+164
+00:03:56,000 --> 00:03:57,200
+And the and the AI
+
+165
+00:03:57,200 --> 00:03:58,380
+just conjures up the code
+
+166
+00:03:58,380 --> 00:03:59,360
+right there in your editor,
+
+167
+00:03:59,360 --> 00:04:00,040
+like magic.
+
+168
+00:04:00,240 --> 00:04:01,560
+Pretty much. Open AIs model,
+
+169
+00:04:01,560 --> 00:04:03,460
+it generates the JSX code,
+
+170
+00:04:03,580 --> 00:04:04,880
+which is then converted into,
+
+171
+00:04:05,060 --> 00:04:06,580
+you know, browser ready JavaScript
+
+172
+00:04:06,580 --> 00:04:07,800
+using a tool called Babel.
+
+173
+00:04:08,080 --> 00:04:09,580
+The really cool part is
+
+174
+00:04:09,580 --> 00:04:10,680
+that this code is then
+
+175
+00:04:10,680 --> 00:04:13,840
+executed dynamically using JavaScript's function
+
+176
+00:04:13,840 --> 00:04:15,780
+constructor, meaning the interface is
+
+177
+00:04:15,780 --> 00:04:16,780
+literally built on the fly.
+
+178
+00:04:16,780 --> 00:04:19,780
+Wow. That's seriously impressive. It's
+
+179
+00:04:19,780 --> 00:04:21,420
+it's not just about generating
+
+180
+00:04:21,420 --> 00:04:22,820
+static code. It's about that
+
+181
+00:04:22,820 --> 00:04:24,600
+code, you know, coming to
+
+182
+00:04:24,600 --> 00:04:26,680
+life and and responding to
+
+183
+00:04:26,680 --> 00:04:28,460
+user interactions in real time.
+
+184
+00:04:28,560 --> 00:04:30,160
+You've got it. And this
+
+185
+00:04:30,160 --> 00:04:31,340
+is just scratching the surface
+
+186
+00:04:31,340 --> 00:04:32,360
+of what's possible. Have you
+
+187
+00:04:32,360 --> 00:04:33,080
+heard of Vercel?
+
+188
+00:04:33,080 --> 00:04:34,720
+Vercel. They're the company behind
+
+189
+00:04:34,720 --> 00:04:37,500
+Next.js, a popular framework
+
+190
+00:04:37,500 --> 00:04:39,040
+for building React applications.
+
+191
+00:04:39,840 --> 00:04:41,560
+The name Vercel rings a
+
+192
+00:04:41,560 --> 00:04:43,420
+bell. They're they're really making
+
+193
+00:04:43,420 --> 00:04:44,840
+waves in the development world.
+
+194
+00:04:44,980 --> 00:04:45,080
+Right.
+
+195
+00:04:45,300 --> 00:04:46,140
+What what have they got
+
+196
+00:04:46,140 --> 00:04:47,520
+to do with generative UI?
+
+197
+00:04:47,900 --> 00:04:49,060
+Well, they've they've released this
+
+198
+00:04:49,060 --> 00:04:50,440
+tool called Vercel V0.
+
+199
+00:04:50,940 --> 00:04:52,780
+And and let me tell
+
+200
+00:04:52,780 --> 00:04:55,040
+you, it's it's causing quite
+
+201
+00:04:55,040 --> 00:04:55,340
+a stir.
+
+202
+00:04:55,660 --> 00:04:56,720
+With VL, you can describe
+
+203
+00:04:56,720 --> 00:04:57,740
+what you want your UI
+
+204
+00:04:57,740 --> 00:04:59,100
+to look like using natural
+
+205
+00:04:59,100 --> 00:04:59,900
+language, plain English.
+
+206
+00:04:59,900 --> 00:05:01,140
+Wait, hold on. You're you're
+
+207
+00:05:01,140 --> 00:05:01,800
+telling me I can just
+
+208
+00:05:01,800 --> 00:05:02,540
+tell this tool what I
+
+209
+00:05:02,540 --> 00:05:03,360
+want my website to look
+
+210
+00:05:03,360 --> 00:05:04,420
+like and it'll it'll spit
+
+211
+00:05:04,420 --> 00:05:05,180
+out the code for me.
+
+212
+00:05:05,300 --> 00:05:06,360
+You got it. And not
+
+213
+00:05:06,360 --> 00:05:07,440
+and not just any code.
+
+214
+00:05:07,760 --> 00:05:09,780
+It generates ready to use
+
+215
+00:05:09,780 --> 00:05:12,100
+React code that integrates seamlessly
+
+216
+00:05:12,100 --> 00:05:14,300
+with with popular libraries like
+
+217
+00:05:14,300 --> 00:05:14,900
+Tailwind CSS.
+
+218
+00:05:15,120 --> 00:05:15,740
+So I don't even need
+
+219
+00:05:15,740 --> 00:05:17,180
+to be like a coding
+
+220
+00:05:17,180 --> 00:05:18,820
+whiz to use this V0
+
+221
+00:05:18,820 --> 00:05:19,160
+thing.
+
+222
+00:05:19,280 --> 00:05:20,020
+Like I can just tell
+
+223
+00:05:20,020 --> 00:05:21,380
+it, make me a website
+
+224
+00:05:21,380 --> 00:05:22,800
+that looks like a tropical
+
+225
+00:05:22,800 --> 00:05:25,240
+island and and it'll just
+
+226
+00:05:25,240 --> 00:05:25,800
+handle it.
+
+227
+00:05:25,840 --> 00:05:27,240
+Well, well, maybe not quite
+
+228
+00:05:27,240 --> 00:05:28,540
+that detail, but you're you're
+
+229
+00:05:28,540 --> 00:05:29,180
+getting the idea.
+
+230
+00:05:29,180 --> 00:05:30,800
+The the real power of
+
+231
+00:05:30,800 --> 00:05:32,540
+V0 lies in its ability
+
+232
+00:05:32,540 --> 00:05:33,680
+to kind of translate your
+
+233
+00:05:33,680 --> 00:05:36,220
+intent into into functional code.
+
+234
+00:05:36,400 --> 00:05:37,680
+It's like having a conversation
+
+235
+00:05:37,680 --> 00:05:39,180
+with with a designer who
+
+236
+00:05:39,180 --> 00:05:40,420
+also happens to speak fluent
+
+237
+00:05:40,420 --> 00:05:40,680
+React.
+
+238
+00:05:40,880 --> 00:05:42,080
+That's incredible. But but it
+
+239
+00:05:42,080 --> 00:05:44,120
+makes you wonder what what
+
+240
+00:05:44,120 --> 00:05:45,020
+happens to the role of
+
+241
+00:05:45,020 --> 00:05:46,500
+the developer then if if
+
+242
+00:05:46,500 --> 00:05:48,920
+AI can, you know, generate
+
+243
+00:05:48,920 --> 00:05:50,020
+code from simple descriptions.
+
+244
+00:05:50,280 --> 00:05:51,200
+Are we all out of
+
+245
+00:05:51,200 --> 00:05:51,600
+a job?
+
+246
+00:05:51,600 --> 00:05:52,800
+Yeah, that's that's a question
+
+247
+00:05:52,800 --> 00:05:53,420
+a lot of people are
+
+248
+00:05:53,420 --> 00:05:53,700
+asking.
+
+249
+00:05:53,800 --> 00:05:55,580
+And it speaks to to
+
+250
+00:05:55,580 --> 00:05:57,840
+the evolving relationship between humans
+
+251
+00:05:57,840 --> 00:05:58,280
+and AI.
+
+252
+00:05:58,560 --> 00:05:59,800
+Well, it's true that tools
+
+253
+00:05:59,800 --> 00:06:01,380
+like V0 can, you know,
+
+254
+00:06:01,480 --> 00:06:02,840
+automate certain coding tasks.
+
+255
+00:06:02,960 --> 00:06:04,300
+The the role of the
+
+256
+00:06:04,300 --> 00:06:05,680
+developer is far from obsolete.
+
+257
+00:06:06,020 --> 00:06:07,420
+In fact, it's it's becoming
+
+258
+00:06:07,420 --> 00:06:08,580
+even more important.
+
+259
+00:06:08,720 --> 00:06:09,160
+How so?
+
+260
+00:06:09,160 --> 00:06:11,980
+Because because crafting effective prompts
+
+261
+00:06:11,980 --> 00:06:13,820
+for these AI tools is
+
+262
+00:06:13,820 --> 00:06:14,680
+an art in itself.
+
+263
+00:06:14,860 --> 00:06:15,020
+Yeah.
+
+264
+00:06:15,360 --> 00:06:16,260
+You need to be able
+
+265
+00:06:16,260 --> 00:06:18,320
+to clearly articulate your vision,
+
+266
+00:06:18,840 --> 00:06:20,500
+you know, understand the nuances
+
+267
+00:06:20,500 --> 00:06:23,060
+of design, anticipate potential pitfalls.
+
+268
+00:06:23,260 --> 00:06:24,520
+It's it's not just about
+
+269
+00:06:24,520 --> 00:06:25,280
+what you want.
+
+270
+00:06:25,380 --> 00:06:26,840
+It's it's how you communicate
+
+271
+00:06:26,840 --> 00:06:27,540
+it to the AI.
+
+272
+00:06:27,740 --> 00:06:28,880
+So it's less about replacing
+
+273
+00:06:28,880 --> 00:06:30,620
+developers and more about augmenting
+
+274
+00:06:30,620 --> 00:06:32,160
+their abilities, giving them the
+
+275
+00:06:32,160 --> 00:06:33,680
+power to do more faster
+
+276
+00:06:33,680 --> 00:06:34,780
+and with greater precision.
+
+277
+00:06:34,780 --> 00:06:36,880
+Exactly. And the really exciting
+
+278
+00:06:36,880 --> 00:06:37,640
+thing is that this is
+
+279
+00:06:37,640 --> 00:06:39,300
+still, you know, early days.
+
+280
+00:06:39,480 --> 00:06:40,960
+Vercel isn't the only player
+
+281
+00:06:40,960 --> 00:06:41,540
+in this field.
+
+282
+00:06:41,700 --> 00:06:43,200
+There's there's a whole ecosystem
+
+283
+00:06:43,200 --> 00:06:45,100
+of of open source projects
+
+284
+00:06:45,100 --> 00:06:47,640
+like like Open V0, Prompt
+
+285
+00:06:47,640 --> 00:06:50,580
+2E, V0, Copilot Next that
+
+286
+00:06:50,580 --> 00:06:51,620
+are that are pushing the
+
+287
+00:06:51,620 --> 00:06:53,040
+boundaries of what's possible with
+
+288
+00:06:53,040 --> 00:06:53,620
+generative UI.
+
+289
+00:06:53,780 --> 00:06:54,500
+It's like a whole new
+
+290
+00:06:54,500 --> 00:06:56,760
+frontier for creativity and innovation.
+
+291
+00:06:56,960 --> 00:06:58,080
+What else is out there?
+
+292
+00:06:58,180 --> 00:06:58,880
+What should we be keeping
+
+293
+00:06:58,880 --> 00:06:59,500
+our eye on?
+
+294
+00:06:59,620 --> 00:07:00,620
+One development that has me
+
+295
+00:07:00,620 --> 00:07:02,660
+particularly excited is is Anthropics
+
+296
+00:07:02,660 --> 00:07:04,000
+Claude Sonnet 3.5.
+
+297
+00:07:04,000 --> 00:07:05,980
+This this AI model is
+
+298
+00:07:05,980 --> 00:07:07,400
+is making waves with its
+
+299
+00:07:07,400 --> 00:07:09,320
+its unique artifacts feature.
+
+300
+00:07:09,460 --> 00:07:10,740
+Artifacts. That sounds intriguing.
+
+301
+00:07:10,980 --> 00:07:11,720
+What makes them so special?
+
+302
+00:07:11,940 --> 00:07:12,580
+Imagine this.
+
+303
+00:07:12,660 --> 00:07:14,120
+You're you're working with Claude
+
+304
+00:07:14,120 --> 00:07:16,200
+asking it to to design
+
+305
+00:07:16,200 --> 00:07:17,420
+like a website layout.
+
+306
+00:07:18,260 --> 00:07:19,960
+As it's generating the code,
+
+307
+00:07:20,120 --> 00:07:21,560
+it it doesn't just show
+
+308
+00:07:21,560 --> 00:07:22,640
+you a wall of text.
+
+309
+00:07:23,000 --> 00:07:24,780
+Instead, it creates these these
+
+310
+00:07:24,780 --> 00:07:26,780
+dynamic visual representations of what
+
+311
+00:07:26,780 --> 00:07:27,880
+it's what it's building.
+
+312
+00:07:28,180 --> 00:07:30,780
+And these artifacts appear alongside
+
+313
+00:07:30,780 --> 00:07:31,600
+your conversation.
+
+314
+00:07:31,600 --> 00:07:32,580
+So you so you can
+
+315
+00:07:32,580 --> 00:07:34,420
+actually see the design taking
+
+316
+00:07:34,420 --> 00:07:36,500
+shape in in real time
+
+317
+00:07:36,500 --> 00:07:38,100
+as you're interacting with the
+
+318
+00:07:38,100 --> 00:07:38,380
+AI.
+
+319
+00:07:38,580 --> 00:07:39,700
+Exactly. It's like having a
+
+320
+00:07:39,700 --> 00:07:41,260
+live feedback loop between your
+
+321
+00:07:41,260 --> 00:07:42,920
+ideas and the AI's interpretation
+
+322
+00:07:42,920 --> 00:07:43,340
+of them.
+
+323
+00:07:43,460 --> 00:07:45,220
+That's incredible. It sounds like
+
+324
+00:07:45,220 --> 00:07:46,920
+it could revolutionize the design
+
+325
+00:07:46,920 --> 00:07:48,100
+process, making it much more
+
+326
+00:07:48,100 --> 00:07:49,580
+collaborative and iterative.
+
+327
+00:07:49,580 --> 00:07:51,280
+Absolutely. And this brings us
+
+328
+00:07:51,280 --> 00:07:53,040
+to another crucial aspect of
+
+329
+00:07:53,040 --> 00:07:53,760
+generative UI.
+
+330
+00:07:54,260 --> 00:07:55,960
+The the tools that bridge
+
+331
+00:07:55,960 --> 00:07:57,680
+the gap between AI models
+
+332
+00:07:57,680 --> 00:07:59,160
+and the interfaces we use
+
+333
+00:07:59,160 --> 00:08:00,520
+every day for cell ones
+
+334
+00:08:00,520 --> 00:08:01,360
+again is is at the
+
+335
+00:08:01,360 --> 00:08:02,460
+forefront of this with their
+
+336
+00:08:02,460 --> 00:08:03,880
+with their for cell AI
+
+337
+00:08:03,880 --> 00:08:04,340
+SDK.
+
+338
+00:08:04,340 --> 00:08:07,660
+The Vercel AI SDK. Tell
+
+339
+00:08:07,660 --> 00:08:08,820
+me more. What makes it
+
+340
+00:08:08,820 --> 00:08:09,300
+so special?
+
+341
+00:08:09,600 --> 00:08:10,540
+Think of it as a
+
+342
+00:08:10,540 --> 00:08:12,560
+as a toolkit, a collection
+
+343
+00:08:12,560 --> 00:08:14,240
+of building blocks that developers
+
+344
+00:08:14,240 --> 00:08:15,880
+can use to to integrate
+
+345
+00:08:15,880 --> 00:08:17,380
+generative UI into into their
+
+346
+00:08:17,380 --> 00:08:17,780
+projects.
+
+347
+00:08:17,920 --> 00:08:19,260
+It's it's broken down into
+
+348
+00:08:19,260 --> 00:08:21,080
+three main components. The AI
+
+349
+00:08:21,080 --> 00:08:22,840
+SDK core, the AI SDK
+
+350
+00:08:22,840 --> 00:08:24,800
+UI and the AI SDK
+
+351
+00:08:24,800 --> 00:08:25,340
+RSC.
+
+352
+00:08:25,340 --> 00:08:27,060
+OK, let's let's unpack that.
+
+353
+00:08:27,140 --> 00:08:28,140
+What's the what's the what's
+
+354
+00:08:28,140 --> 00:08:29,080
+the AI SDK core all
+
+355
+00:08:29,080 --> 00:08:29,320
+about?
+
+356
+00:08:29,520 --> 00:08:30,640
+It's the it's the engine
+
+357
+00:08:30,640 --> 00:08:31,840
+room, if you will. It
+
+358
+00:08:31,840 --> 00:08:34,120
+provides the the fundamental functions
+
+359
+00:08:34,120 --> 00:08:36,420
+for for interacting with AI
+
+360
+00:08:36,420 --> 00:08:38,240
+models like like generating text,
+
+361
+00:08:38,420 --> 00:08:40,800
+streaming content, creating structured data.
+
+362
+00:08:41,020 --> 00:08:41,720
+So it handles all the
+
+363
+00:08:41,720 --> 00:08:43,180
+behind the scenes communication with
+
+364
+00:08:43,180 --> 00:08:44,920
+the AI, allowing developers to
+
+365
+00:08:44,920 --> 00:08:46,420
+focus on building the the
+
+366
+00:08:46,420 --> 00:08:47,400
+user facing element.
+
+367
+00:08:47,400 --> 00:08:48,680
+Exactly. And that's where the
+
+368
+00:08:48,680 --> 00:08:50,380
+AI SDK UI comes in.
+
+369
+00:08:50,440 --> 00:08:52,060
+It provides developers with with
+
+370
+00:08:52,060 --> 00:08:53,480
+prebuilt components and hooks for
+
+371
+00:08:53,480 --> 00:08:55,200
+creating those those seamless interactive
+
+372
+00:08:55,200 --> 00:08:56,620
+experiences that that we've been
+
+373
+00:08:56,620 --> 00:08:57,120
+talking about.
+
+374
+00:08:57,360 --> 00:08:58,240
+So instead of writing all
+
+375
+00:08:58,240 --> 00:09:00,220
+that code from scratch, developers
+
+376
+00:09:00,220 --> 00:09:01,900
+can leverage these prebuilt elements
+
+377
+00:09:01,900 --> 00:09:04,500
+to to quickly assemble chat
+
+378
+00:09:04,500 --> 00:09:07,360
+interfaces, autocomplete features and even
+
+379
+00:09:07,360 --> 00:09:09,180
+those those handy AI assistants.
+
+380
+00:09:09,460 --> 00:09:10,700
+Precisely. And then there's the
+
+381
+00:09:10,700 --> 00:09:12,840
+AI SDK RSC. This one
+
+382
+00:09:12,840 --> 00:09:13,680
+is a bit more technical,
+
+383
+00:09:13,980 --> 00:09:14,920
+but equally important.
+
+384
+00:09:15,160 --> 00:09:15,820
+Don't worry, I'm ready for
+
+385
+00:09:15,820 --> 00:09:16,480
+it. Hit me with the
+
+386
+00:09:16,480 --> 00:09:17,200
+technical details.
+
+387
+00:09:17,200 --> 00:09:18,680
+Well, RSC stands for for
+
+388
+00:09:18,680 --> 00:09:20,960
+React server components. Yeah. And
+
+389
+00:09:20,960 --> 00:09:21,860
+it's a it's a powerful
+
+390
+00:09:21,860 --> 00:09:23,240
+way to build web applications
+
+391
+00:09:23,240 --> 00:09:24,120
+that are that are both
+
+392
+00:09:24,120 --> 00:09:25,060
+fast and dynamic.
+
+393
+00:09:25,320 --> 00:09:27,360
+OK, I'm vaguely familiar with
+
+394
+00:09:27,360 --> 00:09:28,480
+React, but how does how
+
+395
+00:09:28,480 --> 00:09:30,020
+does RSC fit into this
+
+396
+00:09:30,020 --> 00:09:32,160
+whole generative UI picture?
+
+397
+00:09:32,460 --> 00:09:34,340
+In a nutshell, RSC allows
+
+398
+00:09:34,340 --> 00:09:35,960
+you to render UI components
+
+399
+00:09:35,960 --> 00:09:37,700
+on the server instead of
+
+400
+00:09:37,700 --> 00:09:40,020
+the the client's browser, sending
+
+401
+00:09:40,020 --> 00:09:41,540
+only the essential information over
+
+402
+00:09:41,540 --> 00:09:41,960
+the wire.
+
+403
+00:09:41,960 --> 00:09:43,680
+This this this results in
+
+404
+00:09:43,680 --> 00:09:45,400
+faster loading times and a
+
+405
+00:09:45,400 --> 00:09:47,720
+smoother user experience, which is
+
+406
+00:09:47,720 --> 00:09:49,400
+crucial for those those dynamic
+
+407
+00:09:49,400 --> 00:09:50,940
+AI powered interfaces we've been
+
+408
+00:09:50,940 --> 00:09:51,280
+discussing.
+
+409
+00:09:51,540 --> 00:09:52,580
+So it's like having the
+
+410
+00:09:52,580 --> 00:09:53,860
+AI and the server working
+
+411
+00:09:53,860 --> 00:09:55,560
+together behind the scenes to
+
+412
+00:09:55,560 --> 00:09:57,860
+to create a seamless responsive
+
+413
+00:09:57,860 --> 00:09:59,200
+experience for the user.
+
+414
+00:09:59,200 --> 00:10:00,000
+You got it. And the
+
+415
+00:10:00,000 --> 00:10:01,240
+and the in the AI
+
+416
+00:10:01,240 --> 00:10:04,260
+SDK RSC is specifically designed
+
+417
+00:10:04,260 --> 00:10:06,440
+to leverage the the power
+
+418
+00:10:06,440 --> 00:10:07,340
+of server components.
+
+419
+00:10:07,380 --> 00:10:08,840
+Yeah. Allowing you to dynamically
+
+420
+00:10:08,840 --> 00:10:10,880
+stream UI elements based on
+
+421
+00:10:10,880 --> 00:10:11,800
+the AI's responses.
+
+422
+00:10:11,800 --> 00:10:13,320
+That's incredible. It sounds like
+
+423
+00:10:13,320 --> 00:10:14,280
+a match made in heaven.
+
+424
+00:10:14,500 --> 00:10:16,620
+AI generating the ideas, RSC
+
+425
+00:10:16,620 --> 00:10:18,020
+handling the technical heavy lifting
+
+426
+00:10:18,020 --> 00:10:19,520
+and and the user enjoying
+
+427
+00:10:19,520 --> 00:10:22,020
+a smooth personalized experience.
+
+428
+00:10:22,300 --> 00:10:23,300
+It's a it's a powerful
+
+429
+00:10:23,300 --> 00:10:25,520
+combination and it highlights how
+
+430
+00:10:25,520 --> 00:10:26,980
+the the different pieces of
+
+431
+00:10:26,980 --> 00:10:28,240
+the generative UI puzzle are
+
+432
+00:10:28,240 --> 00:10:28,940
+starting to come together.
+
+433
+00:10:28,940 --> 00:10:30,320
+So we've gone from AI
+
+434
+00:10:30,320 --> 00:10:32,080
+generating lines of code to
+
+435
+00:10:32,080 --> 00:10:34,680
+like dynamically building entire user
+
+436
+00:10:34,680 --> 00:10:36,440
+interfaces in in real time,
+
+437
+00:10:36,500 --> 00:10:37,920
+all thanks to these powerful
+
+438
+00:10:37,920 --> 00:10:39,060
+tools like like the Vercel
+
+439
+00:10:39,060 --> 00:10:39,880
+AI SDK.
+
+440
+00:10:40,360 --> 00:10:41,000
+Where do we go from
+
+441
+00:10:41,000 --> 00:10:41,720
+here? What what does the
+
+442
+00:10:41,720 --> 00:10:43,160
+future hold for generative UI?
+
+443
+00:10:43,380 --> 00:10:44,820
+Oh, it's an exciting time
+
+444
+00:10:44,820 --> 00:10:46,140
+to be, you know, following
+
+445
+00:10:46,140 --> 00:10:46,760
+this space.
+
+446
+00:10:46,960 --> 00:10:48,840
+Imagine AI that doesn't just
+
+447
+00:10:48,840 --> 00:10:50,260
+follow instructions, but like it
+
+448
+00:10:50,260 --> 00:10:51,320
+understands context.
+
+449
+00:10:51,460 --> 00:10:53,640
+It anticipates needs, maybe even
+
+450
+00:10:53,640 --> 00:10:55,380
+surprises us with with its
+
+451
+00:10:55,380 --> 00:10:55,880
+creativity.
+
+452
+00:10:55,880 --> 00:10:57,220
+So less like following a
+
+453
+00:10:57,220 --> 00:10:58,340
+recipe and more like having
+
+454
+00:10:58,340 --> 00:11:00,260
+a true design partner, pushing
+
+455
+00:11:00,260 --> 00:11:01,620
+the boundaries of what's possible.
+
+456
+00:11:01,800 --> 00:11:03,400
+Exactly. And and as those
+
+457
+00:11:03,400 --> 00:11:05,360
+AI models evolve, so will
+
+458
+00:11:05,360 --> 00:11:07,180
+the the tools and frameworks
+
+459
+00:11:07,180 --> 00:11:08,200
+we use to kind of
+
+460
+00:11:08,200 --> 00:11:09,020
+harness their power.
+
+461
+00:11:09,160 --> 00:11:11,140
+Right. The Vercel AI SDK
+
+462
+00:11:11,140 --> 00:11:12,800
+is a great example, but
+
+463
+00:11:12,800 --> 00:11:13,780
+it's just the beginning.
+
+464
+00:11:13,940 --> 00:11:15,940
+We'll see even more specialized
+
+465
+00:11:15,940 --> 00:11:18,060
+tools emerge, giving giving developers
+
+466
+00:11:18,060 --> 00:11:20,500
+greater flexibility and control over
+
+467
+00:11:20,500 --> 00:11:22,220
+the entire generative UI process.
+
+468
+00:11:22,220 --> 00:11:24,000
+It's it's like handing incredibly
+
+469
+00:11:24,000 --> 00:11:25,700
+powerful tools to a new
+
+470
+00:11:25,700 --> 00:11:28,240
+generation of of digital architects
+
+471
+00:11:28,240 --> 00:11:29,260
+who knows what kind of
+
+472
+00:11:29,260 --> 00:11:31,180
+of incredible experiences they'll create.
+
+473
+00:11:31,420 --> 00:11:32,680
+It makes you wonder what
+
+474
+00:11:32,680 --> 00:11:34,580
+what will the world look
+
+475
+00:11:34,580 --> 00:11:36,500
+like when when anyone can
+
+476
+00:11:36,500 --> 00:11:39,060
+create a custom made digital
+
+477
+00:11:39,060 --> 00:11:40,160
+experience with just a few
+
+478
+00:11:40,160 --> 00:11:40,620
+words?
+
+479
+00:11:41,260 --> 00:11:42,540
+How how how will this
+
+480
+00:11:42,540 --> 00:11:43,780
+change the way we work,
+
+481
+00:11:43,960 --> 00:11:45,000
+learn and interact with each
+
+482
+00:11:45,000 --> 00:11:45,520
+other online?
+
+483
+00:11:45,760 --> 00:11:46,860
+Those are some big questions.
+
+484
+00:11:46,980 --> 00:11:47,880
+It feels like we're we're
+
+485
+00:11:47,880 --> 00:11:48,820
+on the cusp of a
+
+486
+00:11:48,820 --> 00:11:49,960
+of a major shift in
+
+487
+00:11:49,960 --> 00:11:51,040
+how we how we think
+
+488
+00:11:51,040 --> 00:11:52,800
+about and interact with technology.
+
+489
+00:11:53,080 --> 00:11:54,480
+Absolutely. And it's not just
+
+490
+00:11:54,480 --> 00:11:55,960
+about the technology itself. It's
+
+491
+00:11:55,960 --> 00:11:57,460
+it's about the possibilities it
+
+492
+00:11:57,460 --> 00:11:57,780
+unlocks.
+
+493
+00:11:57,780 --> 00:11:59,520
+Imagine a world where where
+
+494
+00:11:59,520 --> 00:12:01,880
+education is is personalized for
+
+495
+00:12:01,880 --> 00:12:03,660
+each student, where where health
+
+496
+00:12:03,660 --> 00:12:05,180
+care is more accessible and
+
+497
+00:12:05,180 --> 00:12:06,940
+tailored to your specific needs,
+
+498
+00:12:07,080 --> 00:12:08,460
+where where entertainment is a
+
+499
+00:12:08,460 --> 00:12:10,180
+truly immersive and interactive experience.
+
+500
+00:12:10,640 --> 00:12:11,980
+Generative UI could be could
+
+501
+00:12:11,980 --> 00:12:13,160
+be the key to unlocking
+
+502
+00:12:13,160 --> 00:12:14,220
+all of this and more.
+
+503
+00:12:14,380 --> 00:12:16,120
+It's it's mind blowing to
+
+504
+00:12:16,120 --> 00:12:17,920
+think about the the potential
+
+505
+00:12:17,920 --> 00:12:19,160
+impact this could have on
+
+506
+00:12:19,160 --> 00:12:19,600
+our lives.
+
+507
+00:12:19,700 --> 00:12:20,760
+It feels like we're we're
+
+508
+00:12:20,760 --> 00:12:21,960
+just scratching the surface of
+
+509
+00:12:21,960 --> 00:12:22,560
+what's possible.
+
+510
+00:12:22,560 --> 00:12:23,780
+We are. And that's what
+
+511
+00:12:23,780 --> 00:12:24,880
+makes this such an exciting
+
+512
+00:12:24,880 --> 00:12:25,780
+field to be a part
+
+513
+00:12:25,780 --> 00:12:25,960
+of.
+
+514
+00:12:26,720 --> 00:12:28,500
+Generative UI isn't just about
+
+515
+00:12:28,500 --> 00:12:30,120
+changing the way we design
+
+516
+00:12:30,120 --> 00:12:30,660
+interfaces.
+
+517
+00:12:30,920 --> 00:12:31,960
+It's about changing the way
+
+518
+00:12:31,960 --> 00:12:33,780
+we experience the world around
+
+519
+00:12:33,780 --> 00:12:34,120
+us.
+
+520
+00:12:34,340 --> 00:12:35,860
+I don't think I'll ever
+
+521
+00:12:35,860 --> 00:12:36,900
+look at my phone or
+
+522
+00:12:36,900 --> 00:12:38,100
+computer the same way again.
+
+523
+00:12:38,220 --> 00:12:39,520
+This has been an incredible
+
+524
+00:12:39,520 --> 00:12:40,960
+deep dive. I I feel
+
+525
+00:12:40,960 --> 00:12:41,480
+like I need to go
+
+526
+00:12:41,480 --> 00:12:42,560
+back and process all of
+
+527
+00:12:42,560 --> 00:12:42,760
+this.
+
+528
+00:12:42,900 --> 00:12:43,960
+This amazing information.
+
+529
+00:12:44,220 --> 00:12:44,960
+Yeah, it's been it's been
+
+530
+00:12:44,960 --> 00:12:46,700
+a pleasure exploring these these
+
+531
+00:12:46,700 --> 00:12:47,520
+ideas with you.
+
+532
+00:12:48,200 --> 00:12:48,940
+Until next time.
+
